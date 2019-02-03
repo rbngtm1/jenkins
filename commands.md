@@ -19,6 +19,6 @@
   * cd conf -- here there is file called server.xml where there is section called connector port 
   * less server.xml --see the connector port or vi server.xml and you can change the port number too
   * if you made changes to port, restart the tomcat -- cd ..     cd bin/     ./startup.sh  ./shutdown.sh   ./startup.sh
-  
-  
+  * go outside the tomcat9 and install jenkins
+  * wget http://updates.jenkins-ci.org/download/war/2.100/jenkins.war
 
