@@ -47,7 +47,7 @@
   * git config --global user.name "Robin Gautam"
   * git config --global user.email "robin.awscloud.com"
   * to install the latest version of jenkins to integrate with github
-  * try wget http://updates.jenkins-ci.org/download/war/2.107/jenkins.war
+  * try wget http://updates.jenkins-ci.org/download/war/2.109/jenkins.war
   * cd tomcat9/bin
   *  ./shutdown.sh
   *  mv /home/ec2-user/jenkins.war /home/ec2-user/tomcat9/webapps/.
