@@ -22,5 +22,4 @@
   * go outside the tomcat9 and install jenkins
   * wget http://updates.jenkins-ci.org/download/war/2.100/jenkins.war
   * cp jenkins.war /home/ec2-user/tomcat9/webapps/
-
-
+  * sudo cat /home/ec2-user/.jenkins/secrets/initialAdmin  and get the password and paste
