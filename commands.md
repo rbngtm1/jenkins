@@ -23,3 +23,35 @@
   * wget http://updates.jenkins-ci.org/download/war/2.100/jenkins.war
   * cp jenkins.war /home/ec2-user/tomcat9/webapps/
   * sudo cat /home/ec2-user/.jenkins/secrets/initialAdmin  and get the password and paste
+#### Integrating Jenkins with github
+  * Create a newjob. You may name it samplejob, freestyle project
+  * Go to Build and execute shell
+  * type something like and save and build
+    df -k .
+    touch newfile
+    ps -a
+    echo "hello"
+    
+  * To configure github, to to manage Jenkins
+  * Check in the global tool configuration
+  * add maven and you may keep 3.5.3 as version as well as name, save and apply
+  * Let's intall mannually but we may also Go to manage plugins ,On available, you can see all the plugins that are available; select       github and you can click install without restart, but another way is to install mannually 
+  * sudo yum groupinstall "Development tools" on terminal 
+  * wget https://github.com/git/git/archive/v2.7.2.tar.gz -O git.tar.gz
+  * Extract by tar -xvf git.tar.gz
+  * Go inside git directory 
+  * make configure
+  * pwd -- my home path is /home/ec2-user/git-2.7.2
+  * ./configure -prefix=/home/ec2-user/git-2.7.2
+  * sudo make install
+  * git config --global user.name "Robin Gautam"
+  * git config --global user.email "robin.awscloud.com"
+  * to install the latest version of jenkins to integrate with github
+  * try wget http://updates.jenkins-ci.org/download/war/2.107/jenkins.war
+  * cd tomcat9/bin
+  *  ./shutdown.sh
+  *  mv /home/ec2-user/jenkins.war /home/ec2-user/tomcat9/webapps/.
+  * cd ../bin
+  * ./startup.sh
+
+
