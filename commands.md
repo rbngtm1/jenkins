@@ -21,4 +21,6 @@
   * if you made changes to port, restart the tomcat -- cd ..     cd bin/     ./startup.sh  ./shutdown.sh   ./startup.sh
   * go outside the tomcat9 and install jenkins
   * wget http://updates.jenkins-ci.org/download/war/2.100/jenkins.war
+  * cp jenkins.war /home/ec2-user/tomcat9/webapps/
+
 
