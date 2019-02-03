@@ -16,7 +16,9 @@
   * you will see startup.bat which is for windows and startup.sh for linux machine
   * ps -ef | grep tomcat
   * cd .. -- goto tomcat9
-  * cd conf
-  * less server.xml --see the connector port 
+  * cd conf -- here there is file called server.xml where there is section called connector port 
+  * less server.xml --see the connector port or vi server.xml and you can change the port number too
+  * if you made changes to port, restart the tomcat -- cd ..     cd bin/     ./startup.sh  ./shutdown.sh   ./startup.sh
+  
   
 
