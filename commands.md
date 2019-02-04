@@ -37,6 +37,8 @@
   * add maven and you may keep 3.5.3 as version as well as name, save and apply
   * Let's intall mannually but we may also Go to manage plugins ,On available, you can see all the plugins that are available; select       github and you can click install without restart, but another way is to install mannually 
   * sudo yum groupinstall "Development tools" on terminal 
+  * sudo yum install gettext-devel perl-CPAN perl-devel zlib-devel
+
   * wget https://github.com/git/git/archive/v2.7.2.tar.gz -O git.tar.gz
   * Extract by tar -xvf git.tar.gz
   * Go inside git directory 
