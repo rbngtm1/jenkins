@@ -53,5 +53,6 @@
   *  mv /home/ec2-user/jenkins.war /home/ec2-user/tomcat9/webapps/.
   * cd ../bin
   * ./startup.sh
-
+  * You can make changes in the back end and see those changes in front end
+  * go inside .jenkins and jobs and (projectname) and config.xml ( vi config.xml) make changes in the build and restart using frontend by going to manage jenkins
 
