@@ -22,6 +22,7 @@
   * go outside the tomcat9 and install jenkins
   * sudo wget https://updates.jenkins-ci.org/latest/jenkins.war  or wget http://updates.jenkins-ci.org/download/war/RUNNING_VERSION/jenkins.war
   * cp jenkins.war /home/ec2-user/tomcat9/webapps/
+  * follow below step after integrating jenkins with github
   * sudo cat /home/ec2-user/.jenkins/secrets/initialAdmin  and get the password and paste
 #### Integrating Jenkins with github
 
