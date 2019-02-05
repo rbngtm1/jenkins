@@ -72,5 +72,7 @@
   * Maven is a build tool. It is used for bulding a Java Application
   * Maven takes care of converting the .java into .class
   * The group of .class file will be called as .jar file
-  * jar--combination of classes            var(web archive)--combination of html and xml               ear(enterprise archive)--collection of multiple war and jar file.
+  * jar--combination of classes            
+  * var(web archive)--combination of html and xml               
+  * ear(enterprise archive)--collection of multiple war and jar file.
   * When we are using Maven build the POM.xml will segregate
