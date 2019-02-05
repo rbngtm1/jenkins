@@ -65,3 +65,12 @@
   * vi config.xml --you are able to make changes.
   * After build, if you want to delete workspace 
   * go inside job and particular project and rm -rf .*
+#### For migration
+  * you will copy the .jenkins to another server
+  * /var/lib/jenkins/ --copy the jenkins server and push it into other server 
+#### Why Maven
+  * Maven is a build tool. It is used for bulding a Java Application
+  * Maven takes care of converting the .java into .class
+  * The group of .class file will be called as .jar file
+  * jar--combination of classes            var(web archive)--combination of html and xml               ear(enterprise archive)--collection of multiple war and jar file.
+  * When we are using Maven build the POM.xml will segregate
