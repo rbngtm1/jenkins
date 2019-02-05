@@ -20,22 +20,11 @@
   * less server.xml --see the connector port or vi server.xml and you can change the port number too
   * if you made changes to port, restart the tomcat -- cd ..     cd bin/     ./startup.sh  ./shutdown.sh   ./startup.sh
   * go outside the tomcat9 and install jenkins
-  * wget http://updates.jenkins-ci.org/download/war/2.100/jenkins.war
+  * sudo wget https://updates.jenkins-ci.org/latest/jenkins.war  or wget http://updates.jenkins-ci.org/download/war/RUNNING_VERSION/jenkins.war
   * cp jenkins.war /home/ec2-user/tomcat9/webapps/
   * sudo cat /home/ec2-user/.jenkins/secrets/initialAdmin  and get the password and paste
 #### Integrating Jenkins with github
-  * Create a newjob. You may name it samplejob, freestyle project
-  * Go to Build and execute shell
-  * type something like and save and build
-    df -k .
-    touch newfile
-    ps -a
-    echo "hello"
-    
-  * To configure github, to to manage Jenkins
-  * Check in the global tool configuration
-  * add maven and you may keep 3.5.3 as version as well as name, save and apply
-  * Let's intall mannually but we may also Go to manage plugins ,On available, you can see all the plugins that are available; select       github and you can click install without restart, but another way is to install mannually 
+
   * sudo yum groupinstall "Development tools" on terminal 
   * sudo yum install gettext-devel perl-CPAN perl-devel zlib-devel
 
@@ -49,12 +38,24 @@
   * git config --global user.name "Robin Gautam"
   * git config --global user.email "robin.awscloud.com"
   * to install the latest version of jenkins to integrate with github
-  * try wget http://updates.jenkins-ci.org/download/war/2.109/jenkins.war
+  * try 
   * cd tomcat9/bin
   *  ./shutdown.sh
   *  mv /home/ec2-user/jenkins.war /home/ec2-user/tomcat9/webapps/.
   * cd ../bin
   * ./startup.sh
+.................................................................................................................................
+  * Create a newjob. You may name it samplejob, freestyle project
+  * Go to Build and execute shell
+  * type something like and save and build
+    df -k .
+    touch newfile
+    ps -a
+    echo "hello"
+    
   * You can make changes in the back end and see those changes in front end
   * go inside .jenkins and jobs and (projectname) and config.xml ( vi config.xml) make changes in the build and restart using frontend by going to manage jenkins
-
+    
+  * To configure github, to to manage Jenkins
+  * Check in the global tool configuration
+  * add maven and you may keep 3.5.3 as version as well as name, save and apply
