@@ -60,3 +60,8 @@
   * To configure github, to to manage Jenkins
   * Check in the global tool configuration
   * add maven and you may keep 3.5.3 as version as well as name, save and apply
+  * under source code mgmt you can copy link by clicking clone 
+  * go into .jenkins/jobs/projectname/
+  * vi config.xml --you are able to make changes.
+  * After build, if you want to delete workspace 
+  * go inside job and particular project and rm -rf .*
