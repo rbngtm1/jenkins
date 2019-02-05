@@ -75,4 +75,5 @@
   * jar--combination of classes            
   * var(web archive)--combination of html and xml               
   * ear(enterprise archive)--collection of multiple war and jar file.
-  * When we are using Maven build the POM.xml will segregate
+  * When we are using Maven build the POM.xml will segregate all necessary dependencies needed in an application
+  * 
