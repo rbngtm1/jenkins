@@ -88,4 +88,4 @@
          Build Information - jdk1.7/1.8
      
 #### In case you are having trouble in build after installing Maven, may be you are getting error of java 
-  * under manage jenkins, go global tool configuration and add latest jdk
+  * the easiest way is to get oracle java sign up. You can go to console output in front end and fix the error
