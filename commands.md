@@ -78,6 +78,7 @@
   * ear(enterprise archive)--collection of multiple war and jar file.
   * When we are using Maven build the POM.xml will segregate all necessary dependencies needed in an application
   * Inside Pom.xml
+  * After you add Maven version in global tool configuration and add necessary maven plugins. You will see the maven project when you create a new item name
   *
          archetype -> spring boot application/ struts/ Annotation
          GroupId -> com. usa.data.java. addressing.java
