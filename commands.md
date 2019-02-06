@@ -83,7 +83,7 @@
          GroupId -> com. usa.data.java. addressing.java
          ArtifactID -> contactinfo
          Package -> jar/war/pom/ear
-         Version -> 1.1
+         Version -> 1.1 --helps in identifying which is the latest version of code
          Metadata
          Build Information - jdk1.7/1.8
      
