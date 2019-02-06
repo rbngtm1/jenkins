@@ -78,6 +78,7 @@
   * ear(enterprise archive)--collection of multiple war and jar file.
   * When we are using Maven build the POM.xml will segregate all necessary dependencies needed in an application
   * Inside Pom.xml
+  *
          archetype -> spring boot application/ struts/ Annotation
          GroupId -> com. usa.data.java. addressing.java
          ArtifactID -> contactinfo
