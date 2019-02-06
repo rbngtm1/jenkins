@@ -65,6 +65,7 @@
   * vi config.xml --you are able to make changes.
   * After build, if you want to delete workspace 
   * go inside job and particular project and rm -rf .*
+  * to go inside workspace, cd .jenkins/workspace and same files can be seen in front end too. 
 #### For migration
   * you will copy the .jenkins to another server
   * /var/lib/jenkins/ --copy the jenkins server and push it into other server 
