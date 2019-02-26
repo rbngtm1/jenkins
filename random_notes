@@ -1,0 +1,39 @@
+netstat -anp | grep 8089
+netstat -anp | grep LISTEN
+...................
+to remove password
+cd jenkins
+vi config.xml ---<usesecurity>false
+.................
+advantage of pipeline
+1. COmpilation
+2. Simple static analysis (parallel with compilation) 
+3. Unit tests
+4. Integrations tests (parallel with unit tests)
+5. Deployment
+sonar qube--pipeline linked with unit testing 
+Declarative Pipeline -- write a script in a format of a file and keep in a repo
+Scripted Pipeline -- write the script inside jenkins job 
+.....................
+pipeline
+defn: pipeline from SCM
+.................
+but lets try 
+.............
+inside .git 
+git remote add origin (link)
+git remote set-url origin (link)
+
+which git --will show the path of git
+.....................
+
+go to pipeline syntax and add the git url in repo URL
+add jenkins
+2. click on add jenkins credentials
+3. Domain: global credentials
+4. kind: username with password
+5. Scope: global (jenkins, nodes, items, all chitld items, etc)
+6. add the url and 
+vi config
+.............
+sh "docker build -t (dockerhubusername)/testimage ."
