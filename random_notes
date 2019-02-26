@@ -37,3 +37,19 @@ add jenkins
 vi config
 .............
 sh "docker build -t (dockerhubusername)/testimage ."
+====================================================================================================
+
+ci
+incremental build 
+development- putting war file in test server
+delivery--putting war file in PROD
+netstat -ntlp --- to see ports 
+
+
+sshpass -p --> 
+vi .bashrc --
+at last-> export MAVEN_HOME=path(home/user/apache:maven)
+export PATH=${MAVEN_HOME}/bin:${PATH}
+
+jfrog
+nexus--binary storage
